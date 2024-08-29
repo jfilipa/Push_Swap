@@ -20,7 +20,7 @@ int	main(int argc, char **argv)
 	a = NULL;
 	b = NULL;
 	if (argc == 1 || (argc == 2 && !argv[1][0]))
-		return (1);
+		return (0);
 	else if (argc == 2)
 		argv = ft_split(argv[1], ' ');
 	else
